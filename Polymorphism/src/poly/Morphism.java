@@ -13,12 +13,17 @@ public class Morphism {
 	{
 		System.out.println(" oneplus 9r");
 	}
+	public void samsung(double a)
+	{
+		System.out.println("  one plus pro");
+	}
 	public static void main(String [] args) 
 	{
 		Morphism  x = new Morphism();
 		x.samsung(1);
 		x.samsung();
 		x.samsung(1.1f);
+		x.samsung(1.233d);
 	}
 	
 	
